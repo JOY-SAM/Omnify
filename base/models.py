@@ -7,3 +7,6 @@ class Weather(models.Model):
     location        = models.CharField(max_length=50, null=True, blank=True)
     temperature        =models.PositiveSmallIntegerField(null=True, blank=True)
     humidity        = models.PositiveSmallIntegerField(null=True, blank=True)
+
+    def __str__(self) -> str:
+        return self.location + "-" +  self.condition
