@@ -13,7 +13,7 @@ import {
 import Search from './Screen/Search';
 function App() {
   const queryClient = new QueryClient()
-  axios.defaults.baseURL = 'http://185.210.144.221/';
+  axios.defaults.baseURL = 'http://54.199.190.45/';
 
   return (
     <div className="App">

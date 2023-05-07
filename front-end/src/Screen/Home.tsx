@@ -15,7 +15,7 @@ function Home() {
 
         } )
     return (
-        <div className='grid grid-cols-3 gap-4 bg-white dark:bg-gray-800 min-h-screen px-2'>
+        <div className='grid grid-cols-3 gap-4 bg-white dark:bg-gray-800 min-h-screen p-10'>
 
             {isSuccess && data?.data.map( ( value: any ) => {
                 console.log(value)
