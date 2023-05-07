@@ -1,11 +1,11 @@
 # Getomnify Intern Project
 
 
-## Hosting back-end through VPS follow these steps  
+## Hosting back-end through any VPS follow these steps  
 
 For hosting back-end follow this  [documentation](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-20-04).
 
-## For front-end through vercel follow these steps  
+## Hosting front-end through vercel follow these steps  
 
 ### For  Installation
 
